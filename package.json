@@ -1,0 +1,38 @@
+{
+    "name": "wu-js-utils",
+    "description": "js常见的函数工具库",
+    "version": "1.0.0",
+    "author": "Wukingbow",
+    "license": "MIT",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "src"
+    ],
+    "private": false,
+    "scripts": {
+        "test": "jest",
+        "watch": "jest --watchAll",
+        "coverage": "jest --coverage"
+    },
+    "keywords": [
+        "js-common-utils",
+        "debounce",
+        "throttle",
+        "deepCopy"
+    ],
+    "homepage": "https://github.com/Wukingbow/js-common-utils.git",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Wukingbow/js-common-utils.git"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
+    "dependencies": {
+        "jest": "^26.0.1"
+    },
+    "devDependencies": {
+        "husky": "7.0.2"
+    }
+}
